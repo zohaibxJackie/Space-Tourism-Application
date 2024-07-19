@@ -12,7 +12,7 @@ function Home() {
                 </div>
                 <div id="hero-right">
                     <div className="right-inner">
-                        <a href="/destination" className="explore-btn font-bollefair fs-letter-spacing">Explore</a>
+                        <a href="/Space-Tourism-Application/destination" className="explore-btn font-bollefair fs-letter-spacing">Explore</a>
                     </div>
                 </div>
             </div>

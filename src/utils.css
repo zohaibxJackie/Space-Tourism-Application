@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*::after,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stop animation during the resizing */
+.resize-animation-stopper * {
+    transition: none !important;
+    animation: none !important;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color-white);
+}
+
+img,
+picture,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+:root {
+    --ff-heading: "Bellefair", serif;
+    --ff-Berlow: "Barlow", sans-serif;
+    --ff-Berlow-condensed: "Barlow Condensed", sans-serif;
+    --fs-heading-1: 9.375rem;
+    --fs-heading-2: 6.25rem;
+    --fs-heading-3: 3.5rem;
+    --fs-heading-4: 2rem;
+    --fs-heading-5: 1.75rem;
+    --fs-letter-spacing: 0.297rem;
+    --fs-letter-spacing-2: 0.147rem;
+    --fs-nav-letter-spacing: 0.169rem;
+    --fs-subheading-1: 1.75rem;
+    --fs-subheading-2: 0.875rem;
+    --fs-nav-text: 1rem;
+    --fs-body: 1.125rem;
+    --primary-color-dark: #0B0D17;
+    --primary-color-light: #D0D6F9;
+    --primary-color-white: #FFFF;
+}
+p {
+    font-family: var(--ff-Berlow);
+}
+li {
+    list-style: none;
+}
+.opacity-low {
+    opacity: 0.4;
+}
+.opacity-high {
+    opacity: 1;
+}
+/* ------------------------------Utility classes------------------------------------- */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap-1 {
+    gap: 0.25rem;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.gap-3 {
+    gap: 0.75rem;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.gap-5 {
+    gap: 2rem;
+}
+
+.font-heading {
+    font-family: var(--ff-heading);
+}
+
+.font-berlow {
+    font-family: var(--ff-Berlow);
+}
+
+.font-berlow-condensed {
+    font-family: var(--ff-Berlow-condensed);
+}
+
+.fs-heading-1 {
+    font-size: var(--fs-heading-1);
+}
+
+.fs-heading-2 {
+    font-size: var(--fs-heading-2);
+}
+
+.fs-heading-3 {
+    font-size: var(--fs-heading-3);
+}
+
+.fs-heading-4 {
+    font-size: var(--fs-heading-4);
+}
+
+.fs-heading-5 {
+    font-size: var(--fs-heading-5);
+}
+
+.fs-letter-spacing {
+    letter-spacing: var(--fs-letter-spacing);
+}
+
+.fs-subheading-1 {
+    font-size: var(--fs-subheading-1);
+}
+
+.fs-subheading-2 {
+    font-size: var(--fs-subheading-2);
+}
+
+.fs-letter-spacing-2 {
+    letter-spacing: var(--fs-letter-spacing-2);
+}
+
+.fs-nav-text {
+    font-size: var(--fs-nav-text);
+}
+
+.fs-nav-letter-spacing {
+    letter-spacing: var(--fs-letter-spacing-2);
+}
+
+.fs-body {
+    font-size: var(--fs-body);
+}
+
+.primary-color-dark {
+    color: var(--primary-color-dark);
+}
+
+.primary-color-light {
+    color: var(--primary-color-light);
+}
+
+.primary-color-white {
+    color: var(--primary-color-white);
+}
+.mr-1 {
+    margin-right: 0.25rem;
+}
+.mr-2 {
+    margin-right: 0.5rem;
+}
+.mr-3 {
+    margin-right: 0.75rem;
+}
+.mr-4 {
+    margin-right: 1rem;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.font-heading {
+    font-family: var(--ff-heading);
+}
+.uppercase {
+    text-transform: uppercase;
+}
+/* ------------------------------------------------------------------------------------ */

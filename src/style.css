@@ -138,6 +138,7 @@ header {
 .des-hero-left img {
     width: 18rem;
     aspect-ratio: 1;
+    animation: rotation 50s infinite ease-in;
 }
 
 .secondary-nav {
@@ -198,6 +199,16 @@ header {
 .font-reset-p {
     font-size: clamp(0.9em, 4vw, 1em);
 }
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* ------------------------crew section------------------------ */
 .crw-main {
     max-width: 1280px;

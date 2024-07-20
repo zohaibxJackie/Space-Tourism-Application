@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
 
     return (
@@ -12,7 +14,7 @@ function Home() {
                 </div>
                 <div id="hero-right">
                     <div className="right-inner">
-                        <a href="/Space-Tourism-Application/destination" className="explore-btn font-bollefair fs-letter-spacing">Explore</a>
+                        <Link to={'/destination'} className="explore-btn font-bollefair fs-letter-spacing">Explore</Link>
                     </div>
                 </div>
             </div>

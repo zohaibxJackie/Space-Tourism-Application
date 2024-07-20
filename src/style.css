@@ -31,7 +31,7 @@ body {
     background-size: cover;
     background-position: center;
     color: var(--primary-color-white);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .logo img {
@@ -438,15 +438,6 @@ header {
         grid-template-rows: repeat(12, 50px);
     }
 
-    .section-03 {
-        grid-area: 1/1/7/9;
-    }
-    .section-01 {
-        grid-area: 8/4/8/5;
-    }
-    .section-01 nav {
-        flex-direction: row;
-    }
     .section-02 {
         text-align: center;
         grid-area: 10/2/12/8;
@@ -481,5 +472,47 @@ header {
     .crw-text-aria p:nth-child(3) {
         grid-area: 4/1/8/5;
         padding: 0 10px;
+    }
+    .vehiclename {
+        font-size: var(--fs-heading-4);
+    }
+    /* technology page */
+    .section-01 {
+        grid-area: 7/4/9/5;;
+        margin: auto;
+    }
+    .section-02 {
+        grid-area: 9/1/9/9;
+        > :nth-child(2) {
+            font-size: var(--fs-heading-4);
+        }
+    }
+    .section-03 {
+        grid-area: 1/1/7/9;
+    }
+    .section-03 img {
+        min-height: 100%;
+        object-position: center;
+        object-fit: fill;
+    }
+    .section-01 nav {
+        flex-direction: row;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .section-01 {
+        grid-area: 5/4/7/5;
+    }
+    .section-02 {
+        grid-area: 7/1/12/9;
+    }
+    /* this is the image */
+    .section-03 {
+        grid-area: 1/1/5/9;
+    }
+    .tech-inner {
+        grid-template-rows: repeat(11, 50px);
     }
 }

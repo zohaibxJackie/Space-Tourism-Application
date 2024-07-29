@@ -36,8 +36,8 @@ Following are few screenshots, view the full app to enjoy your ride....
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/zohaibxJackie/Rock-Paper-Scissors-Game)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution url](https://github.com/zohaibxJackie/Space-Tourism-Application)
+- Live Site URL: [live site URL](https://zohaibxjackie.github.io/Space-Tourism-Application/)
 
 ## My process
 

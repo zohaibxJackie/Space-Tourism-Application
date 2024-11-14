@@ -37,14 +37,14 @@ Following are few screenshots, view the full app to enjoy your ride....
 ### Links
 
 - Solution URL: [Solution url](https://github.com/zohaibxJackie/Space-Tourism-Application)
-- Live Site URL: [live site URL](https://zohaibxjackie.github.io/Space-Tourism-Application/)
+- Live Site URL: [Space Tourism Application](https://zohaibxjackie.github.io/Space-Tourism-Application/)
 
 ## My process
 
 ### Built with
 
-- Html 5
-- Vanilla CSS
+- React
+- Tailwind CSS
 - Desktop-first workflow
 - [React](https://reactjs.org/) - JS library
 
